@@ -1,0 +1,575 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		D9D8DDCE2F34A73100ACBA2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9D8DDB82F34A72B00ACBA2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9D8DDBF2F34A72B00ACBA2E;
+			remoteInfo = "HLSPlayer-Learning";
+		};
+		D9D8DDD82F34A73100ACBA2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9D8DDB82F34A72B00ACBA2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9D8DDBF2F34A72B00ACBA2E;
+			remoteInfo = "HLSPlayer-Learning";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D9D8DDC02F34A72B00ACBA2E /* HLSPlayer-Learning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HLSPlayer-Learning.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9D8DDCD2F34A73100ACBA2E /* HLSPlayer-LearningTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HLSPlayer-LearningTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9D8DDD72F34A73100ACBA2E /* HLSPlayer-LearningUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HLSPlayer-LearningUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		D9D8DDC22F34A72B00ACBA2E /* HLSPlayer-Learning */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "HLSPlayer-Learning";
+			sourceTree = "<group>";
+		};
+		D9D8DDD02F34A73100ACBA2E /* HLSPlayer-LearningTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "HLSPlayer-LearningTests";
+			sourceTree = "<group>";
+		};
+		D9D8DDDA2F34A73100ACBA2E /* HLSPlayer-LearningUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "HLSPlayer-LearningUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D9D8DDBD2F34A72B00ACBA2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9D8DDCA2F34A73100ACBA2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9D8DDD42F34A73100ACBA2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D9D8DDB72F34A72B00ACBA2E = {
+			isa = PBXGroup;
+			children = (
+				D9D8DDC22F34A72B00ACBA2E /* HLSPlayer-Learning */,
+				D9D8DDD02F34A73100ACBA2E /* HLSPlayer-LearningTests */,
+				D9D8DDDA2F34A73100ACBA2E /* HLSPlayer-LearningUITests */,
+				D9D8DDC12F34A72B00ACBA2E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D9D8DDC12F34A72B00ACBA2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9D8DDC02F34A72B00ACBA2E /* HLSPlayer-Learning.app */,
+				D9D8DDCD2F34A73100ACBA2E /* HLSPlayer-LearningTests.xctest */,
+				D9D8DDD72F34A73100ACBA2E /* HLSPlayer-LearningUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D9D8DDBF2F34A72B00ACBA2E /* HLSPlayer-Learning */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9D8DDE12F34A73100ACBA2E /* Build configuration list for PBXNativeTarget "HLSPlayer-Learning" */;
+			buildPhases = (
+				D9D8DDBC2F34A72B00ACBA2E /* Sources */,
+				D9D8DDBD2F34A72B00ACBA2E /* Frameworks */,
+				D9D8DDBE2F34A72B00ACBA2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				D9D8DDC22F34A72B00ACBA2E /* HLSPlayer-Learning */,
+			);
+			name = "HLSPlayer-Learning";
+			packageProductDependencies = (
+			);
+			productName = "HLSPlayer-Learning";
+			productReference = D9D8DDC02F34A72B00ACBA2E /* HLSPlayer-Learning.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D9D8DDCC2F34A73100ACBA2E /* HLSPlayer-LearningTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9D8DDE42F34A73100ACBA2E /* Build configuration list for PBXNativeTarget "HLSPlayer-LearningTests" */;
+			buildPhases = (
+				D9D8DDC92F34A73100ACBA2E /* Sources */,
+				D9D8DDCA2F34A73100ACBA2E /* Frameworks */,
+				D9D8DDCB2F34A73100ACBA2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9D8DDCF2F34A73100ACBA2E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D9D8DDD02F34A73100ACBA2E /* HLSPlayer-LearningTests */,
+			);
+			name = "HLSPlayer-LearningTests";
+			packageProductDependencies = (
+			);
+			productName = "HLSPlayer-LearningTests";
+			productReference = D9D8DDCD2F34A73100ACBA2E /* HLSPlayer-LearningTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D9D8DDD62F34A73100ACBA2E /* HLSPlayer-LearningUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9D8DDE72F34A73100ACBA2E /* Build configuration list for PBXNativeTarget "HLSPlayer-LearningUITests" */;
+			buildPhases = (
+				D9D8DDD32F34A73100ACBA2E /* Sources */,
+				D9D8DDD42F34A73100ACBA2E /* Frameworks */,
+				D9D8DDD52F34A73100ACBA2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9D8DDD92F34A73100ACBA2E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D9D8DDDA2F34A73100ACBA2E /* HLSPlayer-LearningUITests */,
+			);
+			name = "HLSPlayer-LearningUITests";
+			packageProductDependencies = (
+			);
+			productName = "HLSPlayer-LearningUITests";
+			productReference = D9D8DDD72F34A73100ACBA2E /* HLSPlayer-LearningUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D9D8DDB82F34A72B00ACBA2E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2620;
+				LastUpgradeCheck = 2620;
+				TargetAttributes = {
+					D9D8DDBF2F34A72B00ACBA2E = {
+						CreatedOnToolsVersion = 26.2;
+					};
+					D9D8DDCC2F34A73100ACBA2E = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = D9D8DDBF2F34A72B00ACBA2E;
+					};
+					D9D8DDD62F34A73100ACBA2E = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = D9D8DDBF2F34A72B00ACBA2E;
+					};
+				};
+			};
+			buildConfigurationList = D9D8DDBB2F34A72B00ACBA2E /* Build configuration list for PBXProject "HLSPlayer-Learning" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D9D8DDB72F34A72B00ACBA2E;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = D9D8DDC12F34A72B00ACBA2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9D8DDBF2F34A72B00ACBA2E /* HLSPlayer-Learning */,
+				D9D8DDCC2F34A73100ACBA2E /* HLSPlayer-LearningTests */,
+				D9D8DDD62F34A73100ACBA2E /* HLSPlayer-LearningUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D9D8DDBE2F34A72B00ACBA2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9D8DDCB2F34A73100ACBA2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9D8DDD52F34A73100ACBA2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D9D8DDBC2F34A72B00ACBA2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9D8DDC92F34A73100ACBA2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9D8DDD32F34A73100ACBA2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D9D8DDCF2F34A73100ACBA2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9D8DDBF2F34A72B00ACBA2E /* HLSPlayer-Learning */;
+			targetProxy = D9D8DDCE2F34A73100ACBA2E /* PBXContainerItemProxy */;
+		};
+		D9D8DDD92F34A73100ACBA2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9D8DDBF2F34A72B00ACBA2E /* HLSPlayer-Learning */;
+			targetProxy = D9D8DDD82F34A73100ACBA2E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D9D8DDDF2F34A73100ACBA2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D9D8DDE02F34A73100ACBA2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D9D8DDE22F34A73100ACBA2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fujimori.HLSPlayer-Learning";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D9D8DDE32F34A73100ACBA2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fujimori.HLSPlayer-Learning";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D9D8DDE52F34A73100ACBA2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fujimori.HLSPlayer-LearningTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HLSPlayer-Learning.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HLSPlayer-Learning";
+			};
+			name = Debug;
+		};
+		D9D8DDE62F34A73100ACBA2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fujimori.HLSPlayer-LearningTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HLSPlayer-Learning.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HLSPlayer-Learning";
+			};
+			name = Release;
+		};
+		D9D8DDE82F34A73100ACBA2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fujimori.HLSPlayer-LearningUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "HLSPlayer-Learning";
+			};
+			name = Debug;
+		};
+		D9D8DDE92F34A73100ACBA2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fujimori.HLSPlayer-LearningUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "HLSPlayer-Learning";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D9D8DDBB2F34A72B00ACBA2E /* Build configuration list for PBXProject "HLSPlayer-Learning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9D8DDDF2F34A73100ACBA2E /* Debug */,
+				D9D8DDE02F34A73100ACBA2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9D8DDE12F34A73100ACBA2E /* Build configuration list for PBXNativeTarget "HLSPlayer-Learning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9D8DDE22F34A73100ACBA2E /* Debug */,
+				D9D8DDE32F34A73100ACBA2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9D8DDE42F34A73100ACBA2E /* Build configuration list for PBXNativeTarget "HLSPlayer-LearningTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9D8DDE52F34A73100ACBA2E /* Debug */,
+				D9D8DDE62F34A73100ACBA2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9D8DDE72F34A73100ACBA2E /* Build configuration list for PBXNativeTarget "HLSPlayer-LearningUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9D8DDE82F34A73100ACBA2E /* Debug */,
+				D9D8DDE92F34A73100ACBA2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D9D8DDB82F34A72B00ACBA2E /* Project object */;
+}
