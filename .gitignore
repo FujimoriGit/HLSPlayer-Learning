@@ -44,5 +44,4 @@ fastlane/screenshots/**/*.png
 fastlane/test_output
 
 # Claude Code settings
-setting.local.json
-.claude/
+settings.local.json
