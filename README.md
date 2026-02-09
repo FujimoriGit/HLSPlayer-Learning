@@ -29,3 +29,8 @@ Xcodeで開いてビルド
 ## CI/CD
 
 GitHub Actions（後述のPhaseで追加予定）
+
+## 参考
+
+- https://speakerdeck.com/play_inc/dong-hua-pei-xin-noji-shu-nituite-slash-zhu-shi-hui-she-play
+- https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_16x9/bipbop_16x9_variant.m3u8
