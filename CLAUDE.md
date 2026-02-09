@@ -24,6 +24,7 @@ HLS動画配信技術の学習用iOSアプリ。Swift 6 + SwiftUI + AVFoundation
 ## コードレビュー時の観点
 
 - Swift 6のStrict Concurrency準拠を確認
+- `@preconcurrency` や `MainActor.assumeIsolated` は特別な理由がない限り使用しない
 - force unwrap（!）の使用を指摘
 - 命名規則: Swift API Design Guidelines に準拠しているか
 - テストが追加されているか（新しいロジックには必須）
