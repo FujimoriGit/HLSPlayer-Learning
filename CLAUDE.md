@@ -24,6 +24,7 @@ HLS動画配信技術の学習用iOSアプリ。Swift 6 + SwiftUI + AVFoundation
 ## コードレビュー時の観点
 
 - Swift 6のStrict Concurrency準拠を確認
+- `@preconcurrency` や `MainActor.assumeIsolated` は特別な理由がない限り使用しない
 - force unwrap（!）の使用を指摘
 - 命名規則: Swift API Design Guidelines に準拠しているか
 - テストが追加されているか（新しいロジックには必須）
@@ -36,6 +37,23 @@ HLS動画配信技術の学習用iOSアプリ。Swift 6 + SwiftUI + AVFoundation
 - Swift Testing フレームワーク使用（XCTestではない）
 - テスト命名: 日本語で「〜が_〜の時_〜になる」
 - Given/When/Then パターン
+
+### 古典学派のテストを重視
+
+テストは**実装の詳細ではなく、振る舞い**に焦点を当てること。
+
+**良い例（振る舞いベース）**:
+- ✅ `同じ識別子の動画が_コレクション内で_重複排除される`
+- ✅ `動画が_指定された情報で_作成される`
+
+**悪い例（実装の詳細）**:
+- ❌ `Videoが_Hashableに準拠しており_Setで使える`
+- ❌ `initメソッドが_正しく動作する`
+
+**原則**:
+- プロトコル準拠や内部実装の詳細をテスト名に含めない
+- 内部実装が変わってもテストが壊れないように設計する
+- ユーザーから見た振る舞いや結果を検証する
 
 ## レビュー方針
 
