@@ -1,10 +1,10 @@
 //
-//  VideoRepositoryProtocol.swift
+//  VideoFetching.swift
 //  HLSPlayer-Learning
 //
 //  Created by Daiki Fujimori on 2026/02/09
 //
 
-nonisolated protocol VideoRepositoryProtocol: Sendable {
+protocol VideoFetching: Sendable {
     func fetchVideos() -> [Video]
 }

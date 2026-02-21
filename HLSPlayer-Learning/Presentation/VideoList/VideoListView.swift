@@ -8,10 +8,10 @@
 import SwiftUI
 
 struct VideoListView: View {
-    private let repository: VideoRepositoryProtocol
+    private let repository: VideoFetching
     private let videos: [Video]
 
-    init(repository: VideoRepositoryProtocol = SampleVideoRepository()) {
+    init(repository: VideoFetching = SampleVideoRepository()) {
         self.repository = repository
         self.videos = repository.fetchVideos()
     }

@@ -7,16 +7,21 @@
 
 import Foundation
 
-nonisolated struct Video: Identifiable, Sendable, Hashable {
+struct Video: Identifiable, Sendable, Hashable {
     let id: UUID
-    let title: String
     let hlsURL: URL
+    let title: String
     let subtitle: String
-
-    init(id: UUID = UUID(), title: String, hlsURL: URL, subtitle: String) {
+    
+    init(
+        id: UUID = UUID(),
+        hlsURL: URL,
+        title: String,
+        subtitle: String
+    ) {
         self.id = id
-        self.title = title
         self.hlsURL = hlsURL
+        self.title = title
         self.subtitle = subtitle
     }
 }

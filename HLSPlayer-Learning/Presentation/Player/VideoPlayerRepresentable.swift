@@ -20,8 +20,7 @@ struct VideoPlayerRepresentable: UIViewControllerRepresentable {
 
     func updateUIViewController(_ uiViewController: AVPlayerViewController, context: Context) {
         // プレイヤーの参照が変更された場合のみ更新
-        if uiViewController.player !== player {
-            uiViewController.player = player
-        }
+        guard uiViewController.player != player else { return }
+        uiViewController.player = player
     }
 }

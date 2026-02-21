@@ -28,16 +28,21 @@ final class PlayerViewModel {
         self.player = AVPlayer(url: video.hlsURL)
         setupObservers()
     }
+}
 
-    func play() {
-        player.play()
+// MARK: - events from view
+
+extension PlayerViewModel {
+    
+    func onAppear() {
+        play()
     }
 
-    func pause() {
-        player.pause()
+    func onDisappear() {
+        cleanUp()
     }
 
-    func togglePlayback() {
+    func tappedPlayback() {
         if isPlaying {
             pause()
         } else {
@@ -49,9 +54,22 @@ final class PlayerViewModel {
         let time = CMTime(seconds: seconds, preferredTimescale: 600)
         player.seek(to: time)
     }
+}
 
-    func cleanUp() {
+// MARK: - private method
+
+private extension PlayerViewModel {
+    
+    func play() {
+        player.play()
+    }
+
+    func pause() {
         player.pause()
+    }
+    
+    func cleanUp() {
+        pause()
         if let timeObserver {
             player.removeTimeObserver(timeObserver)
         }
@@ -62,17 +80,24 @@ final class PlayerViewModel {
         timeControlObservation = nil
     }
 
-    // MARK: - Private
-
-    private func setupObservers() {
+    func setupObservers() {
+        setupTimeObserver()
+        setupPlayerStatusObserver()
+        setupTimeControlStatusObserver()
+    }
+    
+    func setupTimeObserver() {
         // 再生時間の定期監視（0.5秒間隔）
         let interval = CMTime(seconds: 0.5, preferredTimescale: 600)
         timeObserver = player.addPeriodicTimeObserver(forInterval: interval, queue: .main) { [weak self] time in
+            
             Task { @MainActor in
+                
                 guard let self else { return }
                 self.currentTime = time.seconds
 
                 if let currentItem = self.player.currentItem {
+                    
                     let itemDuration = currentItem.duration
                     if itemDuration.isNumeric {
                         self.duration = itemDuration.seconds
@@ -80,7 +105,9 @@ final class PlayerViewModel {
                 }
             }
         }
-
+    }
+    
+    func setupPlayerStatusObserver() {
         // プレイヤーアイテムのステータス監視
         statusObservation = player.currentItem?.observe(\.status, options: [.new]) { [weak self] item, _ in
             Task { @MainActor in
@@ -90,12 +117,16 @@ final class PlayerViewModel {
                     self.errorMessage = item.error?.localizedDescription ?? "再生エラーが発生しました"
                 case .readyToPlay:
                     self.errorMessage = nil
-                default:
+                case .unknown:
+                    break
+                @unknown default:
                     break
                 }
             }
         }
-
+    }
+    
+    func setupTimeControlStatusObserver() {
         // 再生状態の監視
         timeControlObservation = player.observe(\.timeControlStatus, options: [.new]) { [weak self] player, _ in
             Task { @MainActor in

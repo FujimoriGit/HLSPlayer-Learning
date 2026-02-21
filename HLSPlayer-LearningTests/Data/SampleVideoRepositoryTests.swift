@@ -11,6 +11,7 @@ import Testing
 @testable import HLSPlayer_Learning
 
 struct SampleVideoRepositoryTests {
+    
     @Test func fetchVideosが_サンプル動画を_返す() {
         let repository = SampleVideoRepository()
         let videos = repository.fetchVideos()
