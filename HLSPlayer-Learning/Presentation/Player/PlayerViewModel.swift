@@ -8,6 +8,7 @@
 import AVFoundation
 import Observation
 
+@MainActor
 @Observable
 final class PlayerViewModel {
     let video: Video
@@ -110,7 +111,9 @@ private extension PlayerViewModel {
     func setupPlayerStatusObserver() {
         // プレイヤーアイテムのステータス監視
         statusObservation = player.currentItem?.observe(\.status, options: [.new]) { [weak self] item, _ in
+            
             Task { @MainActor in
+                
                 guard let self else { return }
                 switch item.status {
                 case .failed:
@@ -129,7 +132,9 @@ private extension PlayerViewModel {
     func setupTimeControlStatusObserver() {
         // 再生状態の監視
         timeControlObservation = player.observe(\.timeControlStatus, options: [.new]) { [weak self] player, _ in
+            
             Task { @MainActor in
+                
                 guard let self else { return }
                 switch player.timeControlStatus {
                 case .playing:
